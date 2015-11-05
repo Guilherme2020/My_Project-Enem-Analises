@@ -1,5 +1,9 @@
 
 
+#from importacoes import *
+#from metodos import *
+
+
 print"########################## ENEM  ##############################"
 
 ''' 
@@ -13,13 +17,15 @@ print"########################## ENEM  ##############################"
 
 ''' 
 
-texto  = '1-Ranking ;  2-Nome de Escolas ; 3- municipios ;  4-UF;  5- Rede ; 6-Indicador de permanencia na escola; 7 media da escola '
 
 def menu():
+	texto  = '1 - Ranking \n2 - Nome de Escolas\n3 - municipios\n4 - UF\n5 - Rede\n6 - Indicador de permanencia na escola\n7 - media da escola '
 	print texto
-	opcao = input("Escolha sua opcao")
+	opcao = input("Escolha sua opcao: ")
 	while (op != 8):
 		if op == 1:
+			
+
 			pass
 		elif op == 2:
 			pass

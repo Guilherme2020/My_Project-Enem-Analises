@@ -8,9 +8,6 @@
 7 - Media da escola
 
 
-
-
-
 '''
 
 
@@ -27,10 +24,14 @@ def read(filename = 'enem_2014.csv'):
 		item = item.split(";")'''
 		it = f.strip().split(";")
 
-		lista.append(item[2:15])
+		lista.append(it[2:4])
 
 	file.close()
 
 	return lista
+
 print read()
+
+
+
 
