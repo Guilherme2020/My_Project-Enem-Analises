@@ -11,11 +11,8 @@
 '''
 
 
-
-
-
 def read(filename = 'enem_2014.csv'):
-	lista = []
+	escolas = []
 
 	file = open(filename)
 
@@ -24,11 +21,11 @@ def read(filename = 'enem_2014.csv'):
 		item = item.split(";")'''
 		it = f.strip().split(";")
 
-		lista.append(it[2:4])
+		escolas.append(it)
+		#print escolas
 
+	return escolas
 	file.close()
-
-	return lista
 
 print read()
 
